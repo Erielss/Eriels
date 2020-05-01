@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	overflow: hidden;
+	background: #89253e;
+
+}
+
+.contenedor {
+	text-align: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#banner {
+	position: relative;
+}
+
+#banner #portada {
+	width: 100%;
+}
+
+#banner #logo {
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+/*<<<<<<<<< #89253e <<<<<<<Menu2>>>>>>>>>*/
+
+
+#menu2 {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background: #89253e;
+}
+
+#menu2 > a {
+	padding: 13px;
+	text-decoration: none;
+	color: #fff;
+	font-family: verdana;
+	position: relative;
+	top: 15;
+}
+
+#menu2 > a:hover {
+	padding: 13px;
+	color: palevioletred;
+	background: #fff;
+	transition: all 0.5s;
+}
+
+
+/*<<<<<<<<<<<<<<<<< Resetassss >>>>>>>>*/
+
+.contenedor .contenedor-reset {
+	background: palevioletred;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.contenedor-reset h2 {
+	margin: 50px;
+	color: rgba(255,255,255,0.7);
+	font-family: 'Baloo Tamma 2', cursive;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.contenedor-resetas section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #333;
+	border-radius: 20px;
+}
+
+.contenedor-resetas section img {
+	width: 200px;
+	height: 150px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.contenedor-resetas section a {
+	margin: auto;
+	width: 30%;
+	display: block;
+	text-decoration: none;
+	color: palevioletred;
+	font-family:'Baloo Tamma 2', cursive;
+}
+
+.contenedor-resetas section > a:hover {
+	color: peachpuff;
+}
+
+/*<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>*/
+
+footer {
+	text-align: center;
+	color: palevioletred;
+	background: #89253e;
+	width: 100%;
+}
+
+footer .contenedor {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.eriels {
+	font-size: 20px;
+	font-family: verdana;
+}
+
+.redes-socials {
+	width: 100%;
+}
+
+.redes-socials a {
+	text-decoration: none;
+	color: palevioletred;
+	font-size: 30px;
+}

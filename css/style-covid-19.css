@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 1000px;
+}
+
+header {
+	overflow: hidden;
+	background: #89253e;
+
+}
+
+.contenedor {
+	text-align: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#banner {
+	position: relative;
+}
+
+#banner #portada {
+	width: 100%;
+}
+
+#banner #logo {
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+/*<<<<<<<<< #89253e <<<<<<<Menu2>>>>>>>>>*/
+
+
+#menu2 {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background: #89253e;
+}
+
+#menu2 > a {
+	padding: 13px;
+	text-decoration: none;
+	color: #fff;
+	font-family: verdana;
+	position: relative;
+	top: 15;
+}
+
+#menu2 > a:hover {
+	padding: 13px;
+	color: palevioletred;
+	background: #fff;
+	transition: all 0.5s;
+}
+
+
+/*Infor*/
+
+
+#covid-19 .contenedor h2 {
+	font-family: 'Baloo Tamma 2', cursive;
+	color: palevioletred;
+	font-size: 30px;
+}
+
+.contenedor-que-es div {
+	margin-bottom: 20px;
+	background: palevioletred;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.contenedor-que-es h2 {
+	background: #333;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.contenedor-que-es p {
+	padding: 10px;
+	color: peachpuff;
+	text-align: justify;
+}
+
+.contenedor-que-es ol {
+	text-align: left;
+	padding: 40px;
+	margin-left: 20%;
+	color: peachpuff;
+}	
+
+
+/*<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>*/
+
+footer {
+	text-align: center;
+	color: palevioletred;
+	background: #89253e;
+	width: 100%;
+}
+
+footer .contenedor {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.eriels {
+	font-size: 20px;
+	font-family: verdana;
+}
+
+.redes-socials {
+	width: 100%;
+}
+
+.redes-socials a {
+	text-decoration: none;
+	color: palevioletred;
+	font-size: 30px;
+}

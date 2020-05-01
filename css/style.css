@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	overflow: hidden;
+	background: #89253e;
+
+}
+
+.contenedor {
+	text-align: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#banner {
+	position: relative;
+}
+
+#banner #portada {
+	width: 100%;
+	height: 70%;
+}
+
+#banner #logo {
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);	
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+/*<<<<<<<<< #89253e <<<<<<<Menu2>>>>>>>>>*/
+
+
+#menu2 {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background: #89253e;
+}
+
+#menu2 > a {
+	padding: 13px;
+	text-decoration: none;
+	color: #fff;
+	font-family: verdana;
+	position: relative;
+	top: 15;
+}
+
+#menu2 > a:hover {
+	padding: 13px;
+	color: palevioletred;
+	background: #fff;
+	transition: all 0.5s;
+}
+
+/* SOBRENOSOTROS*/
+
+
+
+.contenedor h2 {
+	margin: 10px;
+	font-size: 30px;
+	font-family: 'Baloo Tamma 2', cursive;
+	color: #89253e;
+}
+
+.contenedor .contenedor-sobre-nosotros img {
+	width: 500px;
+	margin: 20px;
+}
+
+
+
+.recipe-textos {
+	width: 50%;
+	text-align: justify;
+	margin: auto;
+}
+
+.recipe-textos p {
+	margin-bottom: 5px;
+}
+
+.recipe-text p {
+	font-family: 'Baloo Tamma 2', cursive;
+	color: palevioletred;
+	font-size: 20px;
+}
+
+
+/*<<<<<<<<<<<<<<<< Algunas Resetas >>>>>>>>>>>>>>>*/
+
+
+.contenedor-resetas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contenedor-resetas article {
+	margin: 30px;
+}
+
+.contenedor-resetas article img {
+	width: 300px;
+	height: 200px;
+}
+
+.contenedor-resetas article > a {
+	display: block;
+	font-size: 20px;
+	font-family: 'Baloo Tamma 2', cursive;
+	margin: 20px;
+	text-decoration: none;
+	color: palevioletred;
+}
+
+.contenedor-resetas article > a:hover {
+	color: peachpuff;
+	transition: all 0.3s;
+}
+
+
+/*VER MAS*/
+
+#ver-mas {
+	width: 100%;
+	text-align: center;
+}
+
+#ver-mas .contenedor-ver-mas {
+}
+
+.contenedor-ver-mas a {
+	text-decoration: none;
+	padding: 10px;
+	color: palevioletred;
+	background: peachpuff;
+	border: 3px solid rgba(255,255,255,0.3);
+}
+
+.contenedor-ver-mas a:hover {
+	color: peachpuff;
+	background: palevioletred;
+	transition: all 0.3s;
+}
+
+/*<<<<<<<<<<< INFOR-EMPRESAS >>>>>>>>>>*/
+
+#infor-empresas {
+	margin: 0px;
+	padding: 20px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.infor-empresa {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#infor-empresas article {
+	margin: 20px;
+}
+
+.infor-empresa article img {
+	margin: 20px;
+	width: 200px;
+	height: 200;
+	border: 5px solid #89253e;
+	border-radius: 100%;
+}
+
+
+/*<<<<<<< FOOTER >>>>>>>>>>*/
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: #89253e;
+	color: #ffff;
+}
+
+footer .contenedor {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.eriels {
+	font-family: verdana;
+	font-size: 20px;
+}
+
+.redes-socials {
+	width: 100%;	
+}
+footer .contenedor p {
+	color: palevioletred;
+}
+
+.redes-socials a {
+	text-decoration: none;
+	color:palevioletred;
+	font-size: 30px;
+}
